@@ -46,11 +46,13 @@ class Sort {
         // Shuffle elements in the vector
         void shuffleVector(std::vector<int>& array);
         
+        // Another version of bucket sort got from ChatGPT
         void bucketSortII(std::vector<int>& array);
 
         // Function to perform insertion sort on a bucket
         void insertionSort(std::vector<int>& bucket);
 
+        // Get from ChatGPT
         void introSort(std::vector<int>& array);
 
         void quickSort(std::vector<int>& arr, int left, int right, int depthLimit);
