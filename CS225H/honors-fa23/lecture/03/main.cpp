@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
     std::vector<int> vec;
     std::random_device rd;  
     std::mt19937 gen(rd()); 
-    std::uniform_int_distribution<> randint(1, 100);
+    std::uniform_int_distribution<> randint(1, 10000000);
     //std::uniform_int_distribution<> randint(-100, 100);
     //std::uniform_int_distribution<> randint(-1000, 1000);
     
@@ -95,7 +95,7 @@ int main(int argc, char **argv) {
     s.shuffleVector(vec);*/
 
     //s.print(vec);
-
+    
     start = std::chrono::steady_clock::now();
     s.quickSort(vec, 0, number - 1);
     end = std::chrono::steady_clock::now();
@@ -103,7 +103,7 @@ int main(int argc, char **argv) {
     std::cout<<"Time for quick sort: "<< quick_second.count()<<"s\n";
 
     //s.print(vec);
-
+    
     s.shuffleVector(vec);
 
     //s.print(vec);
@@ -117,12 +117,13 @@ int main(int argc, char **argv) {
     s.shuffleVector(vec);
 
     //s.print(vec);
-
+    /*
     start = std::chrono::steady_clock::now();
     s.introSort(vec);
     end = std::chrono::steady_clock::now();
     std::chrono::duration<double> intro_second{end - start};
     std::cout<<"Time for intro sort: "<< intro_second.count()<<"s\n";
-
+    */
     //s.print(vec);
+    
 }
