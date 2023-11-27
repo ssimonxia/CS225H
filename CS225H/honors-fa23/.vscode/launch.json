@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/x2421/Desktop/CS225H/CS225H/honors-fa23/lecture/05",
-      "program": "c:/Users/x2421/Desktop/CS225H/CS225H/honors-fa23/lecture/05/build/Debug/outDebug",
+      "cwd": "c:/Users/x2421/Desktop/CS225H/CS225H/honors-fa23/lecture/06",
+      "program": "c:/Users/x2421/Desktop/CS225H/CS225H/honors-fa23/lecture/06/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
